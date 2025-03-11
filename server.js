@@ -9,7 +9,7 @@ const { AskForStickIDs } = require('./messages.js');
 // Determine the path for the SQLite database (GHDB.db)
 
 // const dbPath = path.join(__dirname, 'GHDB.db');
-const dbPath = "C:\\Projects\\repos\\SQLiteRhinoDBServer\\bin\\Debug\\GHDB.db";
+const dbPath = "./Bonsai.db";
 const dbExists = fs.existsSync(dbPath);
 
 // Open (or create) the database
